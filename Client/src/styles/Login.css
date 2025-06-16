@@ -1,6 +1,6 @@
 /* Prevent scroll */
 body, html, #root {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,13 +11,13 @@ body, html, #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 80vh;
 }
 
 .login-box {
   background: #ffffff;
   padding: 2rem;
-  width: 100%;
+  width: 100vh;
   max-width: 380px;
   border-radius: 1rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
